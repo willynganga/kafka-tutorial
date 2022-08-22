@@ -1,0 +1,9 @@
+server:
+  port: 6060
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          auto-create-topics: true
+          brokers: IP_ADDRESS_WHERE_KAFKA_IS_HOSTED:9092
